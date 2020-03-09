@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".fragments.ServicoFragment">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/txt_resume1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/text_resume"
+        android:layout_below="@+id/txt_title"/>
+
+    <TextView
+        android:id="@+id/txt_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indicadores de desempenho"
+        android:textSize="25sp"
+        android:layout_below="@+id/txt_resume1"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_resume2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/text_resume"
+        android:layout_below="@+id/txt_title2"/>
+
+</RelativeLayout>
